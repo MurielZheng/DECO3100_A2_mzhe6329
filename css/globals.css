@@ -1,0 +1,34 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,600,800,500,400|Lato:400");
+
+/* Global Styles */
+
+/* Make links behave as their contents */
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+/* Center align the container horizontally */
+.container-center-horizontal {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Prevent child elements from shrinking in the horizontal container */
+.container-center-horizontal > * {
+  flex-shrink: 0;
+}
+
+/* Center align the text vertically and horizontally */
+.valign-text-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Box sizing for all elements */
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,1920 @@
+/* screen - index */
+
+.index {
+  align-items: center;
+  background-color: #2d4756;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 18300px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.index .overlap-group-container {
+  height: 2534px;
+  margin-left: 6.0px;
+  position: relative;
+  width: 1446px;
+}
+
+.index .overlap-group8 {
+  height: 920px;
+  left: 0;
+  position: absolute;
+  top: 1614px;
+  width: 1440px;
+}
+
+.index .grou {
+  height: 804px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.index .deco3100-interacti {
+  color: #ffffffcc;
+  font-family: var(--font-family-montserrat);
+  font-size: 18px;
+  font-weight: 500;
+  height: 60px;
+  left: 501px;
+  letter-spacing: 0.90px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 42px;
+}
+
+.index .group-3 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  left: 214px;
+  min-height: 212px;
+  position: absolute;
+  top: 194px;
+  transition: all 0.2s ease-out;
+  width: 1016px;
+}
+
+.index .group-3:hover {
+  transform: scale(1.2);
+}
+
+.index .title {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 100px;
+  font-weight: 600;
+  height: 122px;
+  letter-spacing: 0;
+  line-height: normal;
+  min-width: 1012px;
+  text-align: center;
+}
+
+.index .a-tale-of-tragedy-and-hope {
+  color: var(--downy);
+  font-family: var(--font-family-montserrat);
+  font-size: 70px;
+  font-weight: 700;
+  height: 85px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 2px;
+  min-width: 1008px;
+  text-align: center;
+}
+
+.index .from-vibrant-reefs-t {
+  color: var(--charlotte);
+  cursor: pointer;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  height: 96px;
+  left: 364px;
+  letter-spacing: 0;
+  line-height: 48px;
+  position: absolute;
+  text-align: center;
+  top: 486px;
+  transition: all 0.2s ease;
+}
+
+.index .span0-1 {
+  font-weight: 500;
+}
+
+.index .span1-1 {
+  font-weight: 700;
+}
+
+.index .from-vibrant-reefs-t:hover {
+  transform: rotate(-5deg);
+}
+
+.index .explore-button {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 150px;
+  left: 672px;
+  min-width: 152px;
+  position: absolute;
+  top: 770px;
+  transition: all 0.2s ease-in-out;
+}
+
+.index .explore-button:hover {
+  transform: scale(1.2);
+}
+
+.index .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/icon-goggle.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 150px;
+  min-width: 150px;
+  padding: 41.5px 32.7px;
+}
+
+.index .explore {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 16px;
+  font-weight: 600;
+  height: 51px;
+  letter-spacing: 0;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  width: 84px;
+}
+
+.index .scroll-down-with-your-mouse-to-begin {
+  color: var(--tulip);
+  font-family: var(--font-family-montserrat);
+  font-size: 18px;
+  font-weight: 400;
+  left: 522px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 743px;
+  width: 396px;
+}
+
+.index .overlap-group9 {
+  height: 840px;
+  left: 0;
+  position: absolute;
+  top: 804px;
+  width: 1440px;
+}
+
+.index .overlap-group-1 {
+  height: 810px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.index .background-scene-2 {
+  height: 810px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.index .background-scene-2 video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.index .background-scene-2 img {
+  object-fit: cover;
+}
+
+.index .imagine {
+  left: 460px;
+  top: 144px;
+}
+
+.index .floating-in-the-crys {
+  color: #fffdfdb2;
+  font-family: var(--font-family-montserrat);
+  font-size: 36px;
+  font-weight: 500;
+  left: 281px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 10px 10px #00000040;
+  top: 291px;
+  width: 877px;
+}
+
+.index .unfortunately-this {
+  cursor: pointer;
+  left: 281px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 10px 10px #00000080;
+  top: 423px;
+  transition: all 0.2s ease-in-out;
+  width: 877px;
+}
+
+.index .span1-2 {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.index .unfortunately-this:hover {
+  transform: rotate(5deg);
+}
+
+.index .video-shot-and-edit {
+  left: 322px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000080;
+  top: 23px;
+  white-space: nowrap;
+}
+
+.index .icon-coral-reef-1-bleaching {
+  cursor: pointer;
+  height: 217px;
+  left: 537px;
+  object-fit: cover;
+  position: absolute;
+  top: 623px;
+  transition: all 0.2s ease-in-out;
+  width: 365px;
+}
+
+.index .icon-coral-reef-1-bleaching:hover {
+  transform: scale(1.3);
+}
+
+.index .overlap-group10 {
+  height: 839px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.index .background-imagine-1 {
+  height: 804px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.index .background-imagine-1 video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.index .background-imagine-1 img {
+  object-fit: cover;
+}
+
+.index .imagine-1 {
+  left: 461px;
+  top: 157px;
+}
+
+.index .floating-in-the-crys-1 {
+  cursor: pointer;
+  height: 176px;
+  left: 305px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 10px 10px #00000080;
+  top: 351px;
+  transition: all 0.2s ease;
+}
+
+.index .floating-in-the-crys-1:hover {
+  transform: translate(0, -5px);
+}
+
+.index .hover-over-the-text {
+  color: #e29c97;
+  cursor: pointer;
+  font-family: var(--font-family-montserrat);
+  font-size: 18px;
+  font-weight: 400;
+  height: 35px;
+  left: 440px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 604px;
+  transition: all 0.5s ease-in-out;
+  white-space: nowrap;
+}
+
+.index .hover-over-the-text:hover {
+  transform: scale(1.1); 
+}
+
+.index .video-source-by-pexels-magda-ehlers {
+  height: 35px;
+  left: 587px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000080;
+  top: 7px;
+  white-space: nowrap;
+}
+
+.index .span-1 {
+  text-decoration: underline;
+}
+
+.index .icon-coral-reef-1 {
+  cursor: pointer;
+  height: 217px;
+  left: 537px;
+  object-fit: cover;
+  position: absolute;
+  top: 622px;
+  transition: all 0.5s ease-in-out;
+  width: 365px;
+}
+
+.index .icon-coral-reef-1:hover {
+  transform: translate(0, -6px);
+}
+
+.index .x4-coral-reef-introduction {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7.0px;
+  margin-top: 230px;
+  min-height: 1563px;
+  width: 1007px;
+}
+
+.index .coral-reefs-are-one {
+  color: transparent;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  height: 335px;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-right: 6.0px;
+  text-align: center;
+  width: 1001px;
+}
+
+.index .span0-2 {
+  color: var(--downy);
+  font-weight: 500;
+}
+
+.index .icon-map {
+  cursor: pointer;
+  height: 88px;
+  margin-right: 7.0px;
+  margin-top: 79px;
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
+  width: 88px;
+}
+
+.index .icon-map:hover {
+  transform: rotate(10deg);
+}
+
+.index .below-is-an-interact {
+  color: #7ba9cd;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  height: 34px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 7.0px;
+  margin-top: 24px;
+  min-width: 346px;
+  text-align: center;
+}
+
+.index .graph-coral-species {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.0px;
+  margin-top: 35px;
+  min-height: 655px;
+  width: 904px;
+}
+
+.index .endemic-reef-forming {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 8.0px;
+  min-height: 34px;
+  min-width: 640px;
+}
+
+.index .js-endemic-reef-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-right: 7.0px;
+  margin-top: 36px;
+  min-height: 510px;
+  width: 859px;
+}
+
+.index .replacement-graph-1 {
+  height: 465px;
+  object-fit: cover;
+  width: 859px;
+}
+
+.index .source-credit {
+  align-items: flex-start;
+  display: flex;
+  gap: 426px;
+  height: 15px;
+  margin-left: 2.41px;
+  min-width: 823px;
+}
+
+.index .source-iucn-red-list-2020 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 15px;
+  width: 162px;
+}
+
+.index .our-world-in-dataorgbiodiversity-cc-by {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 15px;
+  width: 233px;
+}
+
+.index .endemic-species-are {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 4.0px;
+  margin-top: 24px;
+  min-height: 51px;
+  text-align: center;
+  width: 900px;
+}
+
+.index .coral-species-gallery {
+  align-items: flex-end;
+  display: flex;
+  gap: 92px;
+  margin-right: 7.0px;
+  margin-top: 35px;
+  min-width: 848px;
+}
+
+.index .icon-coral-reef-2 {
+  cursor: pointer;
+  height: 190px;
+  margin-bottom: 0;
+  transition: all 0.2s ease;
+  width: 258px;
+}
+
+.index .icon-coral-reef-2:hover {
+  transform: scale(1.1);
+}
+
+.index .icon-coral-reef-3 {
+  align-self: center;
+  cursor: pointer;
+  height: 223px;
+  transition: all 0.2s ease;
+  width: 204px;
+}
+
+.index .icon-coral-reef-3:hover {
+  transform: scale(1.1);
+}
+
+.index .icon-coral-reef-4 {
+  cursor: pointer;
+  height: 199px;
+  margin-bottom: 0;
+  transition: all 0.2s ease;
+  width: 202px;
+}
+
+.index .icon-coral-reef-4:hover {
+  transform: scale(1.1);
+}
+
+.index .explore-more-about-coral-species {
+  height: 35px;
+  letter-spacing: 0;
+  line-height: 35px;
+  margin-right: 8.0px;
+  margin-top: 20px;
+  min-width: 425px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.index .overlap-group11 {
+  align-self: flex-start;
+  height: 1693px;
+  margin-left: -127px;
+  margin-top: 12px;
+  position: relative;
+  width: 1571px;
+}
+
+.index .x6-coral-bleaching-reason {
+  align-items: flex-start;
+  display: flex;
+  height: 1027px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1490px;
+  padding: 0 8px;
+  position: absolute;
+  top: 666px;
+}
+
+.index .icon-spotlight-l {
+  height: 295px;
+  object-fit: cover;
+  width: 169px;
+}
+
+.index .overlap-group6 {
+  align-self: flex-end;
+  height: 893px;
+  margin-left: 44px;
+  position: relative;
+  width: 1038px;
+}
+
+.index .overlap-group4 {
+  height: 893px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1038px;
+}
+
+.index .graph-human-activies-damage {
+  height: 397px;
+  left: 558px;
+  object-fit: cover;
+  position: absolute;
+  top: 496px;
+  width: 480px;
+}
+
+.index .overlap-group3 {
+  height: 504px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1032px;
+}
+
+.index .overlap-group5 {
+  height: 443px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1032px;
+}
+
+.index .overlap-group1 {
+  height: 423px;
+  left: 563px;
+  position: absolute;
+  top: 20px;
+  width: 469px;
+}
+
+.index .just-1-higher-for-4 {
+  color: var(--downy);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  height: 32px;
+  left: 54px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 391px;
+  white-space: nowrap;
+}
+
+.index .ocean-heat-trends-graph {
+  height: 401px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 469px;
+}
+
+.index .ocean-heat-trends-1993-2021 {
+  color: var(--half-baked);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  height: 32px;
+  left: 117px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.index .change-in-ocean-heat-content-wm2 {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  height: 32px;
+  left: 98px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 341px;
+  white-space: nowrap;
+}
+
+.index .so-why-does-coral-bleaching-happen {
+  color: var(--downy);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  height: 42px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 42px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 711px;
+}
+
+.index .the-global-climate-c {
+  left: 110px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 264px;
+  width: 405px;
+}
+
+.index .title-global-climate-change {
+  align-items: center;
+  display: flex;
+  gap: 18px;
+  height: 89px;
+  left: 1px;
+  min-width: 511px;
+  position: absolute;
+  top: 150px;
+}
+
+.index .icon-climate-change {
+  cursor: pointer;
+  height: 89px;
+  object-fit: cover;
+  transition: all 0.2s ease;
+  width: 89px;
+}
+
+.index .icon-climate-change:hover {
+  transform: rotate(15deg);
+}
+
+.index .overlap-group2 {
+  align-items: center;
+  background-image: url(../img/rectangle-1.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 48px;
+  justify-content: flex-end;
+  margin-bottom: 1.0px;
+  min-width: 402px;
+  padding: 0 31px;
+}
+
+.index .global-climate-change {
+  color: var(--half-baked);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 32px;
+  min-width: 339px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.index .there-are-two-main-reasons {
+  left: 1px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 93px;
+  white-space: nowrap;
+  width: 441px;
+}
+
+.index .activities-container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  left: 0;
+  min-height: 277px;
+  position: absolute;
+  top: 544px;
+  width: 515px;
+}
+
+.index .title-human-activities-damage {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  margin-right: 4px;
+  min-width: 511px;
+}
+
+.index .icon-pollution {
+  cursor: pointer;
+  height: 72px;
+  object-fit: cover;
+  transition: all 0.2s ease;
+  width: 87px;
+}
+
+.index .icon-pollution:hover {
+  transform: rotate(15deg);
+}
+
+.index .overlap-group-2 {
+  align-items: center;
+  background-image: url(../img/rectangle-2.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 48px;
+  min-width: 402px;
+  padding: 0 19px;
+}
+
+.index .human-activities-damage {
+  color: var(--downy);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 32px;
+  min-width: 364px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.index .human-activities-tha {
+  letter-spacing: 0;
+  line-height: 30px;
+  min-height: 180px;
+  width: 405px;
+}
+
+.index .icon-spotlight-s {
+  height: 56px;
+  margin-left: 48px;
+  margin-top: 120px;
+  object-fit: cover;
+  width: 56px;
+}
+
+.index .coral-container {
+  align-items: center;
+  background-image: url(../img/abstract---1-1.svg);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  left: 129px;
+  min-height: 769px;
+  padding: 50px 0;
+  position: absolute;
+  top: 0;
+  width: 1438px;
+}
+
+.index .coral-reefs-are-not {
+  height: 413px;
+  letter-spacing: 0;
+  line-height: 22px;
+  width: 1000px;
+}
+
+.index .span-2 {
+  line-height: 35px;
+}
+
+.index .span2 {
+  color: var(--downy);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.index .span-3 {
+  line-height: 30px;
+}
+
+.index .however-coral-bleac {
+  color: var(--norway);
+  cursor: pointer;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  height: 209px;
+  letter-spacing: 0;
+  line-height: 34px;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  width: 1000px;
+}
+
+.index .span0-3 {
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.index .span1-3 {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.index .span2-1 {
+  font-size: var(--font-size-xl);
+  line-height: 40px;
+}
+
+.index .however-coral-bleac:hover {
+  transform: scale(1.1);
+}
+
+.index .x7-global-coral-bleaching-events {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 1.0px;
+  margin-top: 150px;
+  min-height: 887px;
+  width: 1115px;
+}
+
+.index .coral-bleaching-is-i {
+  letter-spacing: 0;
+  line-height: 35px;
+  margin-right: 27.0px;
+  min-height: 140px;
+  width: 1000px;
+}
+
+.index .span-4 {
+  color: var(--tulip);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+}
+
+.index .graph-bleaching-global-trend {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  min-height: 697px;
+  width: 100%; /* Change the width to 100% */
+  justify-content: center; /* Add justify-content property to center vertically */
+}
+
+.index .occurrence-and-trend {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 34px;
+  min-width: 795px;
+}
+
+.index .js-occurrence-and-tr {
+  align-items: center; /* Change align-items to center */
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  min-height: 624px;
+  width: 100%; /* Change the width to 100% */
+  justify-content: center; /* Add justify-content property to center vertically */
+}
+
+/* .index .replacement-graph-2 {
+  height: 570px;
+  object-fit: cover;
+  width: 1113px;
+} */
+
+.index .source-credit-1 {
+  margin-top: auto;
+  width: 100%; /* Change the width to 100% */
+}
+
+
+.index .source-hughes-t-p {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 15px;
+  white-space: nowrap;
+}
+
+.index .our-world-in-dataorgbiodiversity-cc-by-1 {
+  white-space: nowrap;
+}
+
+.index .x8-australasia-coral-bleaching-events {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 85px;
+  margin-top: 80px;
+  min-height: 822px;
+  width: 1120px;
+}
+
+.index .lets-take-a-closer {
+  letter-spacing: 0;
+  line-height: 35px;
+  margin-right: 6.0px;
+  min-height: 70px;
+  width: 1000px;
+}
+
+.index .span1-4 {
+  color: var(--downy);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+}
+
+.index .overlap-group1-1 {
+  height: 700px;
+  margin-right: 2.0px;
+  position: relative;
+  width: 1118px;
+}
+
+.index .background-icon-australia-map {
+  height: 433px;
+  left: 325px;
+  object-fit: cover;
+  position: absolute;
+  top: 156px;
+  width: 483px;
+  
+}
+
+.index .overlap-group-3 {
+  height: 691px;
+  left: 0;
+  position: absolute;
+  top: 11px;
+  width: 1118px;
+}
+
+.index .source-credit-2 {
+  left: 5px;
+  position: absolute;
+  top: 623px;
+  width: 1090px;
+}
+
+.index .our-world-in-dataorgbiodiversity-cc-by-2 {
+  white-space: nowrap;
+}
+
+.index .replacement-graph-3 {
+  height: 691px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1118px;
+}
+
+.index .occurrence-and-trend-1 {
+  left: 206px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.index .x9-info-about-gbr {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 8.0px;
+  margin-top: 80px;
+  min-height: 1032px;
+  width: 1032px;
+}
+
+.index .according-to-recent {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-right: 10.0px;
+  min-height: 240px;
+  width: 1000px;
+}
+
+.index .sector-portion-austr {
+  height: 772px;
+  margin-right: 2.0px;
+  width: 1030px;
+}
+
+.index .overlap-group13 {
+  height: 1795px;
+  margin-left: 4.0px;
+  margin-top: 49px;
+  position: relative;
+  width: 1444px;
+}
+
+.index .x11-enso-cycle {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  left: 190px;
+  min-height: 997px;
+  position: absolute;
+  top: 798px;
+  width: 1061px;
+}
+
+.index .the-events-were-clos {
+  letter-spacing: 0;
+  line-height: 35px;
+  margin-right: 1.0px;
+  min-height: 70px;
+  width: 1000px;
+}
+
+.index .span1-5 {
+  color: var(--bittersweet);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+}
+
+.index .graph-enso-cycle {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.0px;
+  min-height: 877px;
+  width: 1063px;
+}
+
+.index .number-of-severe-cor {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 4px;
+  min-height: 34px;
+  min-width: 1005px;
+}
+
+.index .js-number-of-severe {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 52px;
+  min-height: 665px;
+  width: 1036px;
+}
+
+.index .replacement-graph-4 {
+  height: 614px;
+  object-fit: cover;
+  width: 1036px;
+}
+
+.index .source-credit-3 {
+  margin-left: 31px;
+  width: 677px;
+}
+
+.index .our-world-in-dataorgbiodiversity-cc-by-3 {
+  width: 303px;
+}
+
+.index .the-el-nio-southern {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 5.0px;
+  margin-top: 20px;
+  min-height: 106px;
+  width: 1000px;
+}
+
+.index .overlap-group4-1 {
+  align-items: flex-end;
+  background-image: url(../img/image-20.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 810px;
+  padding: 30px 194px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.index .status-of-coral-reefs-in-australia {
+  align-self: center;
+  color: transparent;
+  cursor: pointer;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-left: 23.0px;
+  min-height: 61px;
+  text-align: center;
+  text-decoration: underline;
+  width: 711px;
+}
+
+.index .span0 {
+  color: var(--downy);
+}
+
+.index .span1-6 {
+  color: #fff5eb;
+}
+
+.index .graph-status-of-coral-reefs-in-aus {
+  height: 328px;
+  margin-top: 8px;
+  object-fit: cover;
+  width: 1030px;
+}
+
+.index .graph-description {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  gap: 68px;
+  height: 192px;
+  margin-left: 26.0px;
+  margin-top: 39px;
+  min-width: 950px;
+}
+
+.index .the-comparison-of-av {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 192px;
+  text-shadow: 0px 4px 4px #00000040;
+  width: 485px;
+}
+
+.index .the-comparison-of-av-1 {
+  color: #addd8e;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 144px;
+  text-shadow: 0px 4px 4px #00000040;
+  width: 393px;
+}
+
+.index .for-more-detail-on-t {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-right: 13px;
+  margin-top: 42px;
+  white-space: nowrap;
+  width: 949px;
+}
+
+.index .x12-sea-surface-anomaly {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4.0px;
+  margin-top: 280px;
+  min-height: 1091px;
+  width: 1004px;
+}
+
+.index .corals-require-speci {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-right: 4.0px;
+  min-height: 300px;
+  width: 1000px;
+}
+
+.index .graph-annual-sea-sur {
+  height: 675px;
+  margin-right: 4.0px;
+  margin-top: 50px;
+  object-fit: cover;
+  width: 900px;
+}
+
+.index .the-diagram-is-licen {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 4.0px;
+  margin-top: 30px;
+  min-height: 36px;
+  width: 1000px;
+}
+
+.index .x13-interaction-ripple-effect {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: -38px;
+  margin-top: 30px;
+  min-width: 1486px;
+  padding: 0 8px;
+}
+
+.index .overlap-group3-1 {
+  height: 862px;
+  position: relative;
+  width: 1440px;
+}
+
+.index .background-ripple-effect {
+  height: 810px;
+  left: 0;
+  position: absolute;
+  top: 27px;
+  width: 1440px;
+}
+
+.index .background-temperature-trend {
+  height: 810px;
+  left: 432px;
+  mix-blend-mode: color;
+  position: absolute;
+  top: 27px;
+  width: 527px;
+}
+
+.index .icon-spotlight-m {
+  height: 303px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 124px;
+  width: 266px;
+}
+
+.index .icon-spotlight-xs {
+  height: 84px;
+  left: 1132px;
+  object-fit: cover;
+  position: absolute;
+  top: 297px;
+  width: 98px;
+}
+
+.index .icon-spotlights {
+  height: 186px;
+  left: 102px;
+  object-fit: cover;
+  position: absolute;
+  top: 676px;
+  width: 223px;
+}
+
+.index .icon-coral-reef-7-bleaching {
+  cursor: pointer;
+  height: 137px;
+  left: 1153px;
+  object-fit: cover;
+  position: absolute;
+  top: 648px;
+  transition: all 0.4s ease-in-out;
+  width: 202px;
+}
+
+.index .icon-coral-reef-7-bleaching:hover {
+  transform: translate(-1050px, 0);
+}
+
+.index .acropora {
+  color: #c8f5ff;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 627px;
+  letter-spacing: 4.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 693px;
+  white-space: nowrap;
+}
+
+.index .icon-coral-reef-7 {
+  cursor: pointer;
+  height: 118px;
+  left: 111px;
+  object-fit: cover;
+  position: absolute;
+  top: 648px;
+  transition: all 0.2s ease;
+  width: 182px;
+}
+
+.index .icon-coral-reef-7:hover {
+  filter: blur(2px);
+}
+
+.index .icon-coral-reef-6-bleaching {
+  cursor: pointer;
+  height: 150px;
+  left: 1171px;
+  object-fit: cover;
+  position: absolute;
+  top: 197px;
+  transition: all 0.4s ease-in-out;
+  width: 166px;
+}
+
+.index .icon-coral-reef-6-bleaching:hover {
+  transform: translate(-1050px, 0);
+}
+
+.index .pocillopora {
+  color: #c8f5ff;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 605px;
+  letter-spacing: 4.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 247px;
+  white-space: nowrap;
+}
+
+.index .icon-coral-reef-6 {
+  cursor: pointer;
+  height: 131px;
+  left: 129px;
+  object-fit: cover;
+  position: absolute;
+  top: 196px;
+  transition: all 0.2s ease-in-out;
+  width: 146px;
+}
+
+.index .icon-coral-reef-6:hover {
+  filter: blur(2px);
+}
+
+.index .creatures-depend-on {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  left: 258px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 598px;
+}
+
+.index .coral-bleaching-even {
+  color: transparent;
+  font-family: var(--font-family-montserrat);
+  font-size: 72px;
+  font-weight: 700;
+  left: 220px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 4px 10px #00000040;
+  top: 325px;
+  width: 1000px;
+}
+
+.index .span1 {
+  color: var(--white);
+}
+
+.index .icon-coral-reef-5 {
+  height: 214px;
+  left: 572px;
+  position: absolute;
+  top: 0;
+  width: 296px;
+}
+
+.index .x14-media-marine-ecosystem {
+  align-items: flex-start;
+  display: flex;
+  height: 671px;
+  margin-left: 2.0px;
+  margin-top: 50px;
+  min-width: 1002px;
+}
+
+.index .overlap-group2-1 {
+  height: 676px;
+  margin-left: -15px;
+  margin-top: -5px;
+  position: relative;
+  width: 1030px;
+}
+
+.index .media-marine-ecosystem {
+  cursor: pointer;
+  height: 665px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  width: 1030px;
+}
+
+.index .media-marine-ecosystem video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.index .media-marine-ecosystem img {
+  object-fit: cover;
+}
+
+.index .media-marine-ecosystem:hover {
+  transform: scale(1.1);
+}
+
+.index .video-source-by-pexels-alex-mesel {
+  height: 35px;
+  left: 393px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000080;
+  top: 641px;
+  white-space: nowrap;
+}
+
+.index .overlap-group15 {
+  height: 1570px;
+  margin-left: 2.0px;
+  margin-top: 50px;
+  position: relative;
+  width: 1442px;
+}
+
+.index .overlap-group1-2 {
+  height: 688px;
+  left: 0;
+  position: absolute;
+  top: 882px;
+  width: 1440px;
+}
+
+.index .media-gbr {
+  cursor: pointer;
+  height: 688px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease-in-out;
+  width: 1440px;
+}
+
+.index .media-gbr video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.index .media-gbr img {
+  object-fit: cover;
+}
+
+.index .media-gbr:hover {
+  filter: blur(2px);
+}
+
+.index .overlap-group-4 {
+  align-items: center;
+  background-color: #a8a8a859;
+  border-radius: 30px;
+  display: flex;
+  height: 345px;
+  justify-content: flex-end;
+  left: 331px;
+  min-width: 778px;
+  padding: 0 55.6px;
+  position: absolute;
+  top: 172px;
+}
+
+.index .the-great-barrier-re {
+  letter-spacing: 0;
+  line-height: 35px;
+  min-height: 245px;
+  text-shadow: 0px 8px 10px #00000080;
+  width: 666px;
+}
+
+.index .video-source-by-pexels-mikhail-nilov {
+  height: 35px;
+  left: 590px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000080;
+  top: 12px;
+  white-space: nowrap;
+}
+
+.index .x15-contribution-to-the-global-economy {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  left: 172px;
+  min-height: 882px;
+  position: absolute;
+  top: 0;
+  width: 1097px;
+}
+
+.index .according-to-a-repor {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-right: 2.0px;
+  min-height: 120px;
+  width: 1019px;
+}
+
+.index .graph-global-economy {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 712px;
+  width: 1097px;
+}
+
+.index .coral-reefs-contrib {
+  letter-spacing: 0;
+  line-height: 35px;
+  margin-left: 35.0px;
+  min-width: 696px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.index .graph-coral-reefs-co {
+  height: 677px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  width: 1095px;
+}
+
+.index .in-australia-coral {
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: 50px;
+  min-height: 180px;
+  width: 1000px;
+}
+
+.index .x17-local-threats {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4.0px;
+  margin-top: 80px;
+  min-height: 988px;
+  width: 1004px;
+}
+
+.index .icon-threat {
+  cursor: pointer;
+  height: 101px;
+  margin-right: 5.0px;
+  transition: all 0.2s ease-in-out;
+  width: 101px;
+}
+
+.index .icon-threat:hover {
+  transform: rotate(15deg);
+}
+
+.index .local-threats-local {
+  color: transparent;
+  font-family: var(--font-family-montserrat);
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-right: 4.0px;
+  margin-top: 40px;
+  min-height: 166px;
+  text-align: center;
+  width: 1000px;
+}
+
+.index .span0-4 {
+  color: var(--bittersweet);
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.index .graph-local-threats {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-right: 2.0px;
+  margin-top: 50px;
+  min-height: 413px;
+  width: 902px;
+}
+
+.index .local-threats-to-cor {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 35px;
+  margin-right: 3.0px;
+  min-width: 557px;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.index .graph-local-threats-1 {
+  height: 352px;
+  margin-right: 2.0px;
+  width: 900px;
+}
+
+.index .the-health-of-coral {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-right: 4.0px;
+  margin-top: 20px;
+  min-height: 198px;
+  width: 920px;
+}
+
+.index .overlap-group14 {
+  height: 2018px;
+  margin-top: 80px;
+  position: relative;
+  width: 1750px;
+}
+
+.index .corals-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 669px;
+  left: 0;
+  min-width: 1750px;
+  padding: 0.0px 155px;
+  position: absolute;
+  top: 1348px;
+}
+
+.index .corals-1-1 {
+  cursor: pointer;
+  height: 565px;
+  mix-blend-mode: luminosity;
+  object-fit: cover;
+  transition: all 0.5s ease-in-out;
+  width: 1440px;
+}
+
+.index .corals-1-1:hover {
+  transform: translate(0, -5px);
+}
+
+.index .x18-strategies-prevent-bleaching {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 375px;
+  min-height: 1614px;
+  position: absolute;
+  top: 0;
+  width: 1002px;
+}
+
+.index .coralicon-1 {
+  cursor: pointer;
+  height: 120px;
+  margin-right: 2.0px;
+  object-fit: cover;
+  transition: all 0.2s ease-in-out;
+  width: 120px;
+}
+
+.index .coralicon-1:hover {
+  transform: rotate(10deg);
+}
+
+.index .taking-actions-for-c {
+  color: transparent;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34px;
+  margin-right: 2.0px;
+  margin-top: 42px;
+  min-height: 206px;
+  text-align: center;
+  width: 1000px;
+}
+
+.index .span-5 {
+  color: #25c3bb;
+  font-weight: 700;
+}
+
+.index .span2-2 {
+  color: var(--downy);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.index .group-30 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 7.0px;
+  margin-top: 48px;
+  min-height: 1198px;
+  width: 919px;
+}
+
+.index .shrink-your-carbon-f {
+  color: #7af099;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 6.07px;
+  min-height: 29px;
+  text-align: center;
+  width: 909px;
+}
+
+.index .minimise-energy-cons {
+  letter-spacing: 0;
+  line-height: 35px;
+  margin-right: 7.0px;
+  margin-top: 25px;
+  min-height: 315px;
+  width: 800px;
+}
+
+.index .do-your-part-to-help {
+  color: #7af099;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 8.0px;
+  margin-top: 40px;
+  min-height: 29px;
+  text-align: center;
+  width: 911px;
+}
+
+.index .reduce-plastic-use-a {
+  color: transparent;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 35px;
+  margin-right: 9.0px;
+  margin-top: 25px;
+  min-height: 735px;
+  width: 800px;
+}
+
+.index .imagine-2 {
+  color: #ffffffe6;
+  font-family: var(--font-family-montserrat);
+  font-size: 100px;
+  font-weight: 600;
+  height: 122px;
+  letter-spacing: 10.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 10px 10px #00000080;
+}
+
+.index .our-world-in-dataorgbiodiversity-cc-by-4 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 15px;
+}
+
+.index .source-credit-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-height: 31px;
+}
+
+.index .source-hughes-t-p-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 15px;
+  white-space: nowrap;
+}
+
+.index .valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

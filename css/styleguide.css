@@ -1,0 +1,162 @@
+:root {
+  /* Color variables */
+  --alto: #dddddd;
+  --bittersweet: #ff7a72;
+  --black: #000000;
+  --charlotte: #b2f1ff;
+  --downy: #69d5cf;
+  --half-baked: #8cc9cc;
+  --norway: #b1c89f;
+  --seashell-peach: #fff5ebb2;
+  --tulip: #ff958f;
+  --white: #ffffff;
+
+  /* Font size variables */
+  --font-size-l: 24px;
+  --font-size-m: 22px;
+  --font-size-s: 20px;
+  --font-size-xl: 30px;
+  --font-size-xs: 14px;
+  --font-size-xxl: 34px;
+  --font-size-xxs: 12.6px;
+
+  /* Font family variables */
+  --font-family-lato: "Lato", Helvetica;
+  --font-family-montserrat: "Montserrat", Helvetica;
+}
+
+/* Montserrat styles */
+.montserrat-normal-white-22px {
+  color: var(--white); /* Set text color to white */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-m); /* Set font size to medium */
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-normal-alto-12-6px {
+  color: var(--alto); /* Set text color to alto */
+  font-family: var(--font-family-lato); /* Set font family to Lato */
+  font-size: var(--font-size-xxs); /* Set font size to extra extra small */
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-normal-alto-14px {
+  color: var(--alto); /* Set text color to alto */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-xs); /* Set font size to extra small */
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-medium-seashell-peach-14px {
+  color: var(--seashell-peach); /* Set text color to seashell peach */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-xs); /* Set font size to extra small */
+  font-style: normal;
+  font-weight: 500; /* Set font weight to medium */
+}
+
+.montserrat-normal-white-20px {
+  color: var(--white); /* Set text color to white */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-s); /* Set font size to small */
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-medium-white-28px {
+  color: var(--white); /* Set text color to white */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: 28px; /* Set font size to 28px */
+  font-style: normal;
+  font-weight: 500; /* Set font weight to medium */
+}
+
+.montserrat-bold-white-22px {
+  color: var(--white); /* Set text color to white */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-m); /* Set font size to medium */
+  font-style: normal;
+  font-weight: 700; /* Set font weight to bold */
+}
+
+.montserrat-medium-white-24px {
+  color: var(--white); /* Set text color to white */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-l); /* Set font size to large */
+  font-style: normal;
+  font-weight: 500; /* Set font weight to medium */
+}
+
+.montserrat-medium-white-36px {
+  color: var(--white); /* Set text color to white */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: 36px; /* Set font size to 36px */
+  font-style: normal;
+  font-weight: 500; /* Set font weight to medium */
+}
+
+.montserrat-normal-tulip-24px {
+  color: var(--tulip); /* Set text color to tulip */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-l); /* Set font size to large */
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-medium-white-20px {
+  color: var(--white); /* Set text color to white */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-s); /* Set font size to small */
+  font-style: normal;
+  font-weight: 500; /* Set font weight to medium */
+}
+
+.montserrat-normal-white-24px {
+  color: var(--white); /* Set text color to white */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-l); /* Set font size to large */
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-normal-white-22px-2 {
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-m); /* Set font size to medium */
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-medium-downy-24px {
+  color: var(--downy); /* Set text color to downy */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-l); /* Set font size to large */
+  font-style: normal;
+  font-weight: 500; /* Set font weight to medium */
+}
+
+.montserrat-normal-bittersweet-24px {
+  color: var(--bittersweet); /* Set text color to bittersweet */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-l); /* Set font size to large */
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-normal-downy-22px {
+  color: var(--downy); /* Set text color to downy */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-m); /* Set font size to medium */
+  font-style: normal;
+  font-weight: 400;
+}
+
+.montserrat-bold-half-baked-20px {
+  color: var(--half-baked); /* Set text color to half-baked */
+  font-family: var(--font-family-montserrat); /* Set font family to Montserrat */
+  font-size: var(--font-size-s); /* Set font size to small */
+  font-style: normal;
+  font-weight: 700; /* Set font weight to bold */
+}

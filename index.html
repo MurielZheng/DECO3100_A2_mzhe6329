@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+  <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body style="margin: 0; background: #2d4756">
+  <input type="hidden" id="anPageName" name="page" value="index" />
+  <div class="container-center-horizontal">
+    <div class="index screen">
+
+      <div class="overlap-group-container">
+        <!-- 3-cover-title-page -->
+        <div class="overlap-group8">
+          <img class="grou" src="img/image-3-1.png" alt="background-intro" />
+          <p class="deco3100-interacti valign-text-middle">
+            DECO3100 | Interactive Visualisation Project<br />MZHE6329
+          </p>
+          <div class="group-3">
+            <h1 class="title valign-text-middle">CORAL BLEACHING</h1>
+            <p class="a-tale-of-tragedy-and-hope valign-text-middle">A Tale of Tragedy and Hope</p>
+          </div>
+          <p class="from-vibrant-reefs-t valign-text-middle">
+            <span><span class="span0-1">From Vibrant Reefs to Bleached Wastelands:<br /></span><span class="span1-1">The
+                Urgent Need to Act Now</span>
+            </span>
+          </p>
+          <div class="explore-button">
+            <div class="overlap-group">
+              <div class="explore valign-text-middle">EXPLORE</div>
+            </div>
+          </div>
+          <p class="scroll-down-with-your-mouse-to-begin">(Scroll down with your mouse to begin)</p>
+        </div>
+
+        <!-- 2-immersive-scene-after -->
+        <div class="overlap-group9">
+          <div class="overlap-group-1">
+            <div class="background-scene-2">
+              <video src="video/great barrier reef coral bleaching video.mp4" controls playsinline></video>
+            </div>
+            <div class="imagine valign-text-middle imagine-2">IMAGINE</div>
+            <p class="floating-in-the-crys">
+              floating in the crystal-clear waters of<br />the Great Barrier Reef,<br />surrounded by colourful fish
+              and vibrant coral
+            </p>
+            <p class="unfortunately-this montserrat-medium-white-36px">
+              <span class="montserrat-medium-white-36px"><br /></span><span class="span1-2">Unfortunately</span><span
+                class="montserrat-medium-white-36px">,<br />this experience may become a thing of the past if we
+                don&#39;t act now to address coral
+                bleaching.</span>
+            </p>
+            <p class="video-shot-and-edit montserrat-medium-seashell-peach-14px">
+              Video shot and edit by Muriel Zheng in the Agincourt Ribbon Reefs on the Great Barrier Reef in December
+              2022
+            </p>
+          </div>
+          <img class="icon-coral-reef-1-bleaching" src="img/image-4@2x.png" alt="icon-coral-reef-1-bleaching" />
+        </div>
+
+        <!-- 1-immersive-scene-before -->
+        <div class="overlap-group10">
+          <div class="grou">
+            <div class="background-imagine-1">
+              <video src="video/pexels-magda-ehlers-3765078-1920x1080-30fps.mp4" loop autoplay="autoplay" playsinline
+                muted></video>
+            </div>
+            <div class="imagine-1 valign-text-middle imagine-2">IMAGINE</div>
+            <p class="floating-in-the-crys-1 valign-text-middle montserrat-medium-white-36px">
+              floating in the crystal-clear waters of<br />the Great Barrier Reef,<br />surrounded by colourful fish
+              and vibrant coral<br />...
+            </p>
+            <p class="hover-over-the-text valign-text-middle">
+              (Hover over the text and icons with your mouse for bonus!)
+            </p>
+            <p class="video-source-by-pexels-magda-ehlers valign-text-middle montserrat-medium-seashell-peach-14px">
+              <span><span class="montserrat-medium-seashell-peach-14px">Video Source by Pexels </span><a
+                  href="https://www.pexels.com/zh-cn/video/3765078/" target="_blank"><span
+                    class="span-1 montserrat-medium-seashell-peach-14px">Magda Ehlers</span></a>
+              </span>
+            </p>
+          </div>
+          <img class="icon-coral-reef-1" src="img/icon-coral-reef-1.png" alt="icon-coral-reef-1" />
+        </div>
+      </div>
+
+      <!-- 4-coral-reef-introduction -->
+      <div class="x4-coral-reef-introduction">
+        <p class="coral-reefs-are-one valign-text-middle">
+          <span><span class="span0-2">Coral reefs are one of the most diverse ecosystems on Earth... <br /></span><span
+              class="montserrat-normal-white-24px"><br /><br /></span><span class="montserrat-normal-white-22px">In
+              fact, they have the highest biodiversity among all ecosystems worldwide, providing habitat for
+              approximately </span><span class="montserrat-bold-white-22px">25%</span><span
+              class="montserrat-normal-white-22px">
+              of marine species. These vibrant ecosystems are found throughout tropical regions and sustain over
+            </span><span class="montserrat-bold-white-22px">a billion</span><span class="montserrat-normal-white-22px">
+              people through invaluable ecosystem services.<br /><br />Corals are marine invertebrates that inhabit
+              shallow waters, primarily in tropical and subtropical regions. Their bodies are covered by a hard
+              exoskeleton, which can form coral reefs and is a crucial component of coral reef ecosystems.</span>
+          </span>
+        </p>
+        <img class="icon-map" src="img/map-1@2x.png" alt="icon-map" />
+        <p class="below-is-an-interact valign-text-middle">
+          below is an interactive world map which showing<br />the vibrant and diverse coral reef ecosystem
+        </p>
+        <div class="graph-coral-species">
+          <p class="endemic-reef-forming montserrat-medium-white-28px">Endemic Reef-forming Coral Species In 2020</p>
+          <div class="js-endemic-reef-form">
+            <!-- <img class="replacement-graph-1" src="img/image-9.png" alt="replacement-graph-1" /> -->
+            <section class="section">
+              <div id="choropleth" style="width: 100%"></div>
+              <div class="source-credit lato-normal-alto-12-6px">
+                <p class="source-iucn-red-list-2020">Source: IUCN Red List (2020)</p>
+                <div class="our-world-in-dataorgbiodiversity-cc-by">
+                  <a href="https://ourworldindata.org/biodiversity" target="_blank"><span
+                      class="lato-normal-alto-12-6px">OurWorldInData.org/biodiversity • </span></a><a
+                    href="http://creativecommons.org/licenses/by/4.0/deed.en_US" target="_blank"><span
+                      class="lato-normal-alto-12-6px">CC BY</span></a>
+                </div>
+              </div>
+          </div>
+          <p class="endemic-species-are montserrat-normal-alto-14px">
+            Endemic species are plants and animals that exclusively inhabit a specific geographical area. These
+            species are predominantly found in isolated environments, such as islands, where unique conditions and
+            barriers to immigration exist. Over time, the prolonged geographic isolation fosters the evolution of
+            distinct and exceptional species within these isolated regions.
+          </p>
+        </div>
+        <div class="coral-species-gallery">
+          <img class="icon-coral-reef-2" src="img/icon-coral-reef-2.png" alt="icon-coral-reef-2" />
+          <img class="icon-coral-reef-3" src="img/icon-coral-reef-3.png" alt="icon-coral-reef-3" />
+          <img class="icon-coral-reef-4" src="img/icon-coral-reef-4.png" alt="icon-coral-reef-4" />
+        </div>
+        <p class="explore-more-about-coral-species valign-text-middle montserrat-normal-white-20px">
+          <span><span class="montserrat-normal-white-20px">EXPLORE MORE ABOUT </span><a
+              href="https://en.wikipedia.org/wiki/Coral" target="_blank"><span
+                class="span-1 montserrat-normal-white-20px">CORAL SPECIES...</span></a>
+          </span>
+        </p>
+      </div>
+
+      <div class="overlap-group11">
+        <!-- 5-consequence-of-corals -->
+        <div class="coral-container">
+          <p class="coral-reefs-are-not valign-text-middle montserrat-normal-white-22px-2">
+            <span><span class="span-2 montserrat-normal-white-22px">Coral reefs are not only beautiful and biodiverse,
+                <br /></span><span class="span-2 montserrat-normal-white-24px"><br /></span><span class="span2">BUT they
+                also provide food, livelihood, and protection for millions of people around the
+                world...<br /></span><span class="span-2 montserrat-normal-white-24px"><br /></span><span
+                class="span-3 montserrat-normal-white-22px">Corals engage in a symbiotic relationship with algae, where
+                corals provide a living space and
+                nutrients for the algae, while the algae provide energy and pigments for the corals. <br />Coral reef
+                ecosystems support a diverse array of marine life, serving as habitats and food sources for many
+                organisms. <br />They also play a crucial role in global carbon cycling and maintaining balance within
+                marine ecosystems.<br />...</span>
+            </span>
+          </p>
+          <p class="however-coral-bleac valign-text-middle">
+            <span><span class="span0-3">HOWEVER,<br /></span><span class="span1-3">Coral Bleaching
+                Occurs<br /></span><span class="span2-1">when coral reefs turn white or lose their colour due to
+                environmental stress, and it&#39;s a growing
+                threat to marine ecosystems.</span>
+            </span>
+          </p>
+        </div>
+
+        <!-- 6-coral-bleaching-reason -->
+        <div class="x6-coral-bleaching-reason">
+          <img class="icon-spotlight-l" src="img/image-15@2x.png" alt="icon-spotlight-l" />
+          <div class="overlap-group6">
+            <div class="overlap-group4">
+              <img class="graph-human-activies-damage" src="img/graph-human-activies-damage@2x.png"
+                alt="graph-human-activies-damage" />
+              <div class="overlap-group3 montserrat-normal-white-22px">
+                <div class="overlap-group5">
+                  <div class="overlap-group1">
+                    <p class="just-1-higher-for-4 valign-text-middle">
+                      Just 1℃ higher for 4 weeks can cause bleaching
+                    </p>
+                    <img class="ocean-heat-trends-graph" src="img/image-19@2x.png" alt="ocean-heat-trends-graph" />
+                    <div class="ocean-heat-trends-1993-2021 valign-text-middle">OCEAN HEAT TRENDS (1993-2021)</div>
+                    <p class="change-in-ocean-heat-content-wm2 valign-text-middle">
+                      Change in Ocean Heat Content (W/m2)
+                    </p>
+                  </div>
+                  <p class="so-why-does-coral-bleaching-happen valign-text-middle">
+                    SO, why does coral bleaching HAPPEN?
+                  </p>
+                </div>
+                <p class="the-global-climate-c">
+                  <span class="montserrat-normal-white-22px">The global climate change. </span><span
+                    class="montserrat-bold-white-22px">As temperatures rise and the ocean becomes more
+                    acidic</span><span class="montserrat-normal-white-22px">, the environment in which the tiny algae
+                    inside the coral polyps live becomes more hostile,
+                    causing them to die or leave, leading to coral bleaching </span><a
+                    href="https://www.climate.gov/news-features/understanding-climate/climate-change-ocean-heat-content"
+                    target="_blank"><span class="span-1 montserrat-normal-white-22px">(Dahlman and Lindsey,
+                      2020)</span></a><span class="montserrat-normal-white-22px">.</span>
+                </p>
+                <div class="title-global-climate-change">
+                  <img class="icon-climate-change" src="img/icon-climate-change.png" alt="icon-climate-change" />
+                  <div class="overlap-group2">
+                    <div class="global-climate-change valign-text-middle">GLOBAL CLIMATE CHANGE</div>
+                  </div>
+                </div>
+                <p class="there-are-two-main-reasons">There are two main reasons:</p>
+              </div>
+            </div>
+            <div class="activities-container">
+              <div class="title-human-activities-damage">
+                <img class="icon-pollution" src="img/image-17@2x.png" alt="icon-pollution" />
+                <div class="overlap-group-2">
+                  <div class="human-activities-damage valign-text-middle">HUMAN ACTIVITIES DAMAGE</div>
+                </div>
+              </div>
+              <p class="human-activities-tha montserrat-normal-white-22px">
+                <span class="montserrat-normal-white-22px">Human activities that damage marine ecosystems. </span><span
+                  class="montserrat-bold-white-22px">Overfishing, pollution, and urbanisation</span><span
+                  class="montserrat-normal-white-22px">
+                  can all have a negative impact on coral reefs, exacerbating coral bleaching </span><a
+                  href="https://conbio.onlinelibrary.wiley.com/doi/pdf/10.1111/conl.12858" target="_blank"><span
+                    class="span-1 montserrat-normal-white-22px">(Andrello et al., 2021)</span></a><span
+                  class="montserrat-normal-white-22px">.</span>
+              </p>
+            </div>
+          </div>
+          <img class="icon-spotlight-s" src="img/image-16@2x.png" alt="icon-spotlight-s" />
+        </div>
+
+      </div>
+
+      <!-- 7-global-coral-bleaching-events -->
+      <div class="x7-global-coral-bleaching-events">
+        <p class="coral-bleaching-is-i montserrat-normal-tulip-24px">
+          <span class="montserrat-normal-tulip-24px">Coral bleaching is increasing in frequency and intensity as a
+            result of </span><span class="span-4">climate change</span><span class="montserrat-normal-tulip-24px"> and
+          </span><span class="span-4">human activities</span><span class="montserrat-normal-tulip-24px">. Coral reef
+            bleaching events around the world have statistically increased significantly over the past
+            few decades, and many reefs have lost their original colors...</span>
+        </p>
+        <div class="graph-bleaching-global-trend">
+          <p class="occurrence-and-trend montserrat-medium-white-28px">
+            Occurrence And Trend Of Global Coral Bleaching Events
+          </p>
+          <div class="js-occurrence-and-tr">
+            <!-- <img class="replacement-graph-2" src="img/occurrence-and-trend-of-global-coral-bleaching-events-1.png"
+              alt="replacement-graph-2" /> -->
+            <div id="global_plot" style="width: 100%; height: 700px;"></div>
+            <div class="source-credit-1 source-credit-4 lato-normal-alto-12-6px">
+              <p class="source-hughes-t-p">
+                Source: Hughes, T. P., et al. (2018). Spatial and temporal patterns of mass bleaching of corals in the
+                Anthropocene. Science.
+              </p>
+              <div class="our-world-in-dataorgbiodiversity-cc-by-1 our-world-in-dataorgbiodiversity-cc-by-4">
+                <a href="https://ourworldindata.org/biodiversity" target="_blank"><span
+                    class="lato-normal-alto-12-6px">OurWorldInData.org/biodiversity • </span></a><a
+                  href="http://creativecommons.org/licenses/by/4.0/deed.en_US" target="_blank"><span
+                    class="lato-normal-alto-12-6px">CC BY</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8-Australasia-coral-bleaching-events -->
+      <div class="x8-australasia-coral-bleaching-events">
+        <p class="lets-take-a-closer montserrat-medium-downy-24px">
+          <span class="montserrat-medium-downy-24px">Let&#39;s take a closer look at </span><span class="span1-4">the
+            Great Barrier Reef (Australia)</span><span class="montserrat-medium-downy-24px">, the world&#39;s largest
+            coral reef system...</span>
+        </p>
+        <div class="overlap-group1-1">
+
+          <div class="overlap-group-3">
+            <div id="australasia_plot" class="plot" style="width: 100%; height: 700px;"></div>
+            <!-- <img class="background-icon-australia-map" src="img/australia-1@2x.png"
+              alt="background-icon-australia-map" /> -->
+            <!-- <img class="replacement-graph-3" src="img/replacement-graph-3.png" alt="replacement-graph-3" /> -->
+          </div>
+          <p class="occurrence-and-trend-1 montserrat-medium-white-28px">Occurrence and trend of coral bleaching events
+            <br />in Australasia
+          </p>
+        </div>
+        <div class="source-credit-1 source-credit-4 lato-normal-alto-12-6px">
+          <p class="source-hughes-t-p">
+            Source: Hughes, T. P., et al. (2018). Spatial and temporal patterns of mass bleaching of corals in the
+            Anthropocene. Science.
+          </p>
+          <div class="our-world-in-dataorgbiodiversity-cc-by-1 our-world-in-dataorgbiodiversity-cc-by-4">
+            <a href="https://ourworldindata.org/biodiversity" target="_blank"><span
+                class="lato-normal-alto-12-6px">OurWorldInData.org/biodiversity • </span></a><a
+              href="http://creativecommons.org/licenses/by/4.0/deed.en_US" target="_blank"><span
+                class="lato-normal-alto-12-6px">CC BY</span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9-info-about-Great-Barrier-Reef -->
+      <div class="x9-info-about-gbr">
+        <p class="according-to-recent montserrat-normal-white-20px">
+          <span class="montserrat-normal-white-20px">According to recent studies, the Great Barrier Reef has experienced
+            four major coral bleaching events in
+            the past 20 years, with the most severe occurring in 2016. Over 1000 km of the Great Barrier Reef has been
+            affected thus far. The reef has witnessed a 50% decline in its coral cover over the past three decades,
+            with the most significant declines observed in the last five years </span><a
+            href="https://www.theguardian.com/environment/2020/apr/07/great-barrier-reefs-third-mass-bleaching-in-five-years-the-most-widespread-ever"
+            target="_blank"><span class="span-1 montserrat-normal-white-20px">(Readfearn, 2020)</span></a><span
+            class="montserrat-normal-white-20px">.<br /><br />The repercussions of this event alone led to the loss of
+            over one-third of the coral
+            population, which had taken decades to grow, and it continues to face ongoing challenges in its recovery
+            process.</span>
+        </p>
+        <div class="sector-portion-austr">
+          <iframe style="border: 0; pointer-events: auto" id="ytplayer" type="text/html" width="100%" height="100%"
+            src="https://www.youtube.com/embed/I_dC2swK9AY?rel=0" frameborder="0" allowfullscreen="allowfullscreen"
+            mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
+            oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+        </div>
+      </div>
+
+      <div class="overlap-group13">
+        <!-- 10-status-of-coral-reefs-in-au -->
+        <div class="overlap-group4-1">
+          <a href="https://gcrmn.net/2020-report/" target="_blank" class="align-self-flex-center">
+            <p class="status-of-coral-reefs-in-australia">
+              <a href="https://gcrmn.net/2020-report/" target="_blank"><span class="span0">Status of Coral Reefs in
+                </span></a><a href="https://gcrmn.net/2020-report/" target="_blank"><span
+                  class="span1-6">AUSTRALIA</span></a>
+            </p>
+          </a><img class="graph-status-of-coral-reefs-in-aus" src="img/graph-status-of-coral-reefs-in-aus.png"
+            alt="graph-status-of-coral-reefs-in-aus" />
+          <div class="graph-description">
+            <p class="the-comparison-of-av montserrat-normal-white-20px">
+              The comparison of average hard coral cover between the three most recent five-year periods indicates a
+              significant (&gt;89% probability) overall decrease in coral cover over the last 15 years. On average,
+              there was a 25.3% reduction in coral cover on Australian reefs between the periods of 2015-19 and
+              2005-09, with nearly 70% of this decline occurring between 2005-09 and 2010-14.
+            </p>
+            <p class="the-comparison-of-av-1">
+              The comparison of average algal cover during the last three five-year periods unequivocally indicates
+              (with 100% probability) that there was a higher prevalence of algae on Australian reefs in 2015-19
+              compared to 2005-09.
+            </p>
+          </div>
+          <p class="for-more-detail-on-t montserrat-normal-alto-14px">
+            <span class="montserrat-normal-alto-14px">For more detail on the Australia’s coral reefs and its subregions
+              see the GCRMN global report </span><a href="https://gcrmn.net/2020-report/" target="_blank"><span
+                class="span-1 montserrat-normal-alto-14px">Status of Coral Reefs of the World: 2020</span></a>
+          </p>
+        </div>
+
+        <!-- 11-enso-cycle -->
+        <div class="x11-enso-cycle">
+          <p class="the-events-were-clos montserrat-normal-bittersweet-24px">
+            <span class="montserrat-normal-bittersweet-24px">The events were closely intertwined with </span><span
+              class="span1-5">global climate change</span><span class="montserrat-normal-bittersweet-24px">, causing a
+              devastating impact on the biodiversity of the reef.</span>
+          </p>
+          <div class="graph-enso-cycle">
+            <p class="number-of-severe-cor montserrat-medium-white-28px">
+              Number Of Severe Coral Bleaching Events By Stage Of The Enso Cycle
+            </p>
+            <div class="js-number-of-severe">
+              <!-- <img class="replacement-graph-4"
+                src="img/-of-severe-coral-bleaching-events-by-stage-of-the-enso-cycle-1.png"
+                alt="replacement-graph-4" /> -->
+              <div id="enso_plot" class="plot" style="width: 100%; height: 700px;"></div>
+              <div class="source-credit-3 source-credit-4 lato-normal-alto-12-6px">
+                <p class="source-hughes-t-p-3">
+                  Source: Hughes, T. P., et al. (2018). Spatial and temporal patterns of mass bleaching of corals in
+                  the Anthropocene. Science.
+                </p>
+                <div class="our-world-in-dataorgbiodiversity-cc-by-3 our-world-in-dataorgbiodiversity-cc-by-4">
+                  <a href="https://ourworldindata.org/biodiversity" target="_blank"><span
+                      class="lato-normal-alto-12-6px">OurWorldInData.org/biodiversity • </span></a><a
+                    href="http://creativecommons.org/licenses/by/4.0/deed.en_US" target="_blank"><span
+                      class="lato-normal-alto-12-6px">CC BY</span></a>
+                </div>
+              </div>
+            </div>
+            <p class="the-el-nio-southern montserrat-normal-alto-14px">
+              The El Niño–Southern Oscillation (ENSO) is a recurring phenomenon characterized by fluctuations in winds
+              and sea surface temperatures across the tropical eastern Pacific Ocean. It exerts a significant
+              influence on the climate of tropical and subtropical regions. The warm phase of this oceanic temperature
+              anomaly is known as El Niño, while the cool phase is referred to as La Niña.<br />The ENSO cycle is
+              primarily driven by changes in atmospheric pressure. El Niño is accompanied by high atmospheric pressure
+              over the tropical western Pacific, whereas La Niña is associated with low atmospheric pressure. These
+              phases typically persist for several months and tend to occur every few years. The intensity of each
+              cycle can vary.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 12-sea-surface-anomaly -->
+      <div class="x12-sea-surface-anomaly">
+        <p class="corals-require-speci montserrat-normal-white-22px">
+          <span class="montserrat-normal-white-22px">Corals require specific temperatures and climate conditions to
+            thrive and reproduce. Unfortunately,
+            global warming is disrupting their delicate ecological balance by increasing sea temperatures. The ongoing
+            El Niño event, along with local wind and cloud cover patterns, has further intensified the impact of
+            climate change, resulting in extremely high sea surface temperatures in the Great Barrier Reef (GBR)
+            region (Australia. Department Of Climate Change, 2009).<br /><br />Over the past three decades, water
+            temperatures in Australia&#39;s Great Barrier Reef region have risen by an average of </span><span
+            class="montserrat-bold-white-22px">0.9 degrees Celsius</span><span class="montserrat-normal-white-22px">.
+            This significant increase has led to more frequent occurrences of coral bleaching events.</span>
+        </p>
+        <img class="graph-annual-sea-sur" src="img/annual-sea-surface-temperature-anomaly-gbr-2-2.png"
+          alt="graph-annual-sea-surface-temperature-anomaly-GBR" />
+        <p class="the-diagram-is-licen montserrat-normal-alto-14px">
+          <a href="http://www.bom.gov.au/cgi-bin/climate/change/timeseries.cgi?graph=sst&area=aus&season=0112&ave_yr=0"
+            target="_blank"><span class="span-1 montserrat-normal-alto-14px">The diagram</span></a><span
+            class="montserrat-normal-alto-14px"> is licensed under the </span><a
+            href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><span
+              class="span-1 montserrat-normal-alto-14px">Creative Commons Attribution 4.0 International
+              Licence</span></a>
+        </p>
+      </div>
+
+      <!-- 13-interaction-ripple-effect -->
+      <div class="x13-interaction-ripple-effect">
+        <div class="overlap-group3-1">
+          <img class="background-ripple-effect" src="img/image-21.png" alt="background-ripple-effect" />
+          <img class="background-temperature-trend" src="img/background-temperature-trend.png"
+            alt="background-temperature-trend" />
+          <img class="icon-spotlight-m" src="img/image-22@2x.png" alt="icon-spotlight-m" />
+          <img class="icon-spotlight-xs" src="img/image-24@2x.png" alt="icon-spotlight-xs" />
+          <img class="icon-spotlights" src="img/image-23@2x.png" alt="icon-spotlights" />
+          <img class="icon-coral-reef-7-bleaching" src="img/coral-bleach3-1@2x.png" alt="icon-coral-reef-7-bleaching" />
+          <div class="acropora">ACROPORA</div>
+          <img class="icon-coral-reef-7" src="img/coral3-1@2x.png" alt="icon-coral-reef-7" />
+          <img class="icon-coral-reef-6-bleaching" src="img/coral-bleach4-1@2x.png" alt="icon-coral-reef-6-bleaching" />
+          <div class="pocillopora">POCILLOPORA</div>
+          <img class="icon-coral-reef-6" src="img/coral4-1@2x.png" alt="icon-coral-reef-6" />
+          <p class="creatures-depend-on">Creatures depend on it for food and shelter are also affected.</p>
+          <p class="coral-bleaching-even">
+            <span class="span0">Coral bleaching events </span><span class="span1">can have a ripple effect on the entire
+              ecosystem</span>
+          </p>
+          <img class="icon-coral-reef-5" src="img/icon-coral-reef-5.png" alt="icon-coral-reef-5" />
+        </div>
+      </div>
+
+      <!-- 14-media-marine-ecosystem -->
+      <div class="x14-media-marine-ecosystem">
+        <div class="overlap-group2-1">
+          <div class="media-marine-ecosystem">
+            <video src="video/pexels-alex-mesel-11273412-1920x1080-25fps.mp4" loop autoplay="autoplay" playsinline
+              muted></video>
+          </div>
+          <p class="video-source-by-pexels-alex-mesel valign-text-middle montserrat-medium-seashell-peach-14px">
+            <span><span class="montserrat-medium-seashell-peach-14px">Video Source by Pexels </span><a
+                href="https://www.pexels.com/zh-cn/video/11273412/" target="_blank"><span
+                  class="span-1 montserrat-medium-seashell-peach-14px">Alex Mesel</span></a>
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="overlap-group15">
+        <!-- 15-contribution-to-the-global-economy -->
+        <div class="x15-contribution-to-the-global-economy">
+          <p class="according-to-a-repor montserrat-normal-white-22px-2">
+            <span class="montserrat-normal-white-22px">According to a report by the</span><a href="https://wwf.org.au/"
+              target="_blank"><span class="span-1 montserrat-normal-white-22px"> World Wildlife Fund</span></a><span
+              class="montserrat-normal-white-22px">, coral reefs contribute to the global economy by providing
+              livelihoods for millions of people,
+              particularly in the </span><span class="montserrat-normal-downy-22px">fishing</span><span
+              class="montserrat-normal-white-22px"> and </span><span
+              class="montserrat-normal-downy-22px">tourism</span><span class="montserrat-normal-white-22px">
+              industries. Consequently, the well-being of millions of individuals relying on fishing and tourism in
+              these areas can be affected (Cesar, L Burke and L Pet-Soede, 2003).</span>
+          </p>
+          <div class="graph-global-economy">
+            <p class="coral-reefs-contrib montserrat-medium-white-28px">
+              Coral Reef’s Contribution To The Global Economy
+            </p>
+            <div id="economy_plot" class="plot" style="width: 100%; height: 700px;"></div>
+            <!-- <img class="graph-coral-reefs-co" src="img/coral-reef-s-contribution-to-the-global-economy-1.png"
+              alt="graph-coral-reef&#39;s-contribution-to-the-global-economy" /> -->
+          </div>
+        </div>
+
+        <!-- 16-media-Great-Barrier-Reef-economy -->
+        <div class="overlap-group1-2">
+          <div class="media-gbr">
+            <video src="video/pexels-mikhail-nilov-8356785-2560x1440-25fps.mp4" loop autoplay="autoplay" playsinline
+              muted></video>
+          </div>
+          <div class="overlap-group-4">
+            <p class="the-great-barrier-re montserrat-medium-white-24px">
+              <span class="montserrat-medium-white-24px">The Great Barrier Reef generates over </span><span
+                class="montserrat-bold-white-24px">$6 billion</span><span class="montserrat-medium-white-24px">
+                in annual revenue for Australia. Its value-added economic contribution to the Australian economy was
+              </span><span class="montserrat-bold-white-24px">$5.7 billion </span><span
+                class="montserrat-medium-white-24px">in 2011-12, supporting </span><span
+                class="montserrat-bold-white-24px">69,000 jobs</span><span class="montserrat-medium-white-24px">. The
+                potential loss of coral reefs could result in severe economic consequences, alongside
+                environmental and ecological impacts.</span>
+            </p>
+          </div>
+          <p class="video-source-by-pexels-mikhail-nilov valign-text-middle montserrat-medium-seashell-peach-14px">
+            <span><span class="montserrat-medium-seashell-peach-14px">Video Source by Pexels </span><a
+                href="https://www.pexels.com/zh-cn/video/8356785/" target="_blank"><span
+                  class="span-1 montserrat-medium-seashell-peach-14px">Mikhail Nilov</span></a>
+            </span>
+          </p>
+        </div>
+
+      </div>
+
+      <p class="in-australia-coral montserrat-normal-white-22px-2">
+        <span class="montserrat-normal-downy-22px">In Australia, coral reefs provide benefits to 2 million people, with
+          approximately 1 million individuals
+          likely being highly reliant on reefs for their food or livelihood.<br /><br /></span><span
+          class="montserrat-normal-white-22px">(Estimated using WorldPop and World Vector Shoreline data. Individuals
+          residing within 30 km of reefs and
+          10 km of the coast were considered &#34;highly dependent,&#34; while those within 100 km of reefs were
+          considered to &#34;benefit.&#34; (Vizzuality, n.d.))</span>
+      </p>
+
+      <!-- 17-local-threats -->
+      <div class="x17-local-threats">
+        <img class="icon-threat" src="img/icon-threat.png" alt="icon-threat" />
+        <p class="local-threats-local">
+          <span class="span0-4">Local Threats<br /></span><span class="span1"><br /></span><span
+            class="span-3 montserrat-normal-white-20px">Local activities and pollution pose a threat to 15% of reefs in
+            Australia. Marine sources of pollution
+            have been rated as the most pervasive threat, while pollution and sediment from land, as well as
+            overfishing, also pose threats to certain reefs (Burke et al., 2011).</span>
+        </p>
+        <div class="graph-local-threats">
+          <a href="https://bit.ly/3OKRi8S" target="_blank">
+            <p class="local-threats-to-cor montserrat-medium-white-28px">
+              Local Threats to Coral Reefs in Australia
+            </p>
+          </a><img class="graph-local-threats-1"
+            src="img/local-threats-to-coral-reefs-in-australia-2023-05-26t02-28-30-1.png"
+            alt="graph-local-threats-to-coral-reef-in-australia" />
+        </div>
+        <p class="the-health-of-coral montserrat-normal-alto-14px">
+          <span class="montserrat-normal-alto-14px">The health of coral reefs is threatened from many nearby human
+            activities. This dataset describes,
+            individually and in aggregate, the threat posed by the following nearby activities: coastal development,
+            marine-based pollution, watershed-based pollution, and overfishing and other destructive fishing
+            practices. This dataset expresses these threats via an index of low, medium, or high threat severity at a
+            1 km resolution (the integrated threat index also includes a &#34;very high&#34; category).<br />The
+            dataset was created at the World Resources Institute (WRI) as part of the Reefs at Risk Revisited study
+            and represents threats for the year 2011. The coral reef location dataset used was based on 500 meter
+            resolution gridded data reflecting shallow, tropical coral reefs of the world. Organizations contributing
+            to the data and development of the map include the Institute for Marine Remote Sensing at the University
+            of South Florida (IMaRS USF), Institut de Recherche pour le Développement (IRD), United Nations
+            Environment World Conservation Monitoring Centre (UNEP-WCMC), WorldFish Center, and WRI (Burke et al.,
+            2011).</span>
+        </p>
+      </div>
+
+      <div class="overlap-group14">
+        <!-- 18-strategies-prevent-bleaching -->
+        <div class="corals-1"><img class="corals-1-1" src="img/corals-1-3.png" alt="corals 1" /></div>
+        <div class="x18-strategies-prevent-bleaching">
+          <img class="coralicon-1" src="img/coralicon-1-2@2x.png" alt="coralicon 1" />
+          <p class="taking-actions-for-c">
+            <span class="span-5">Taking Actions for Coral Bleaching: <br /></span><span class="span-5">How YOU Can Make
+              a Difference<br /></span><span class="span2-2"><br /></span><span
+              class="span-3 montserrat-normal-white-20px">We must take action to reduce carbon emissions, which
+              contribute to global warming, and protect coral
+              reefs. By raising awareness of this issue, taking proactive measures, and collaborating to preserve the
+              beauty and diversity of our marine ecosystems...</span>
+          </p>
+          <div class="group-30">
+            <p class="shrink-your-carbon-f">SHRINK YOUR CARBON FOOTPRINT TO REDUCE GREENHOUSE GASES</p>
+            <p class="minimise-energy-cons montserrat-medium-white-20px">
+              Minimise energy consumption by turning off unnecessary appliances and lights. Opt for energy-efficient
+              appliances when making purchases.<br />Reduce your reliance on driving by choosing to walk, bike, use
+              public transportation, or carpool.<br />Promote renewable energy by supporting the purchase of green
+              electricity or considering the installation of solar systems.<br />Embrace digital alternatives to
+              printing whenever possible, prfioritize downloading over physical copies, and practice water
+              conservation.<br />...
+            </p>
+            <p class="do-your-part-to-help">DO YOUR PART TO HELP IMPROVE OVERALL CORAL REEF CONDITION</p>
+            <p class="reduce-plastic-use-a">
+              <span class="montserrat-bold-half-baked-20px">Reduce plastic use and Marine pollution:<br /></span><span
+                class="montserrat-medium-white-20px">Choose sustainable shopping bags and containers and avoid
+                single-use plastics.<br />Volunteer for
+                beach an waterway clean ups to help remove plastic waste and other pollutants.<br />Avoid releasing
+                hazardous substances into the drainage system and ensure proper disposal and recycling of
+                waste.<br /><br /></span><span class="montserrat-bold-half-baked-20px">Support sustainable tourism and
+                environmental practices:<br /></span><span class="montserrat-medium-white-20px">Choose responsible tour
+                operators and pay attention to their environmental practices and community
+                support programs.<br />Observe local marine protection regulations and show respect for the local
+                culture and environment. Learn about good reef etiquette and practice it when in the
+                water.<br /><br /></span><span class="montserrat-bold-half-baked-20px">Promote education and
+                awareness:<br /></span><span class="montserrat-medium-white-20px">Share information about coral
+                bleaching and Marine conservation.<br />Participate in and support
+                local environmental protection organizations, initiatives and projects.<br /><br />...</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
